@@ -12,7 +12,6 @@ from config import Config
 
 
 
-
 app = Flask(__name__)
 # 配置
 app.config.from_object(Config)
